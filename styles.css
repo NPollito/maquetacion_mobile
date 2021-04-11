@@ -111,7 +111,8 @@ header .header_figure {
 main {
     width: 100%;
     height: auto;
-    background-color: var(--of-white);
+    /* background-color: var(--of-white); */
+    background-color: black;
 }
 
 /*-------SECTION 1----------*/
@@ -159,5 +160,88 @@ main {
     padding: 6px;
 }
 
+
+
+.section_container--moneda {
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+
+.section_container-table .section_moneda {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--bitcoin-orange);
+}
+
+.section_container-table .monedas_table {
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.monedas_table table {
+    width: 100%;
+    height: 100%;
+}
+
+.monedas_table td {
+    width: 50%;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(--just-white);
+}
+
+.monedas_table .table__top-left {
+    border-radius: 15px 0 0 0; 
+}
+
+.monedas_table .table__top-rigth {
+    border-radius: 0 15px 0 0;
+}
+
+.monedas_table .table__botton-left {
+    border-radius: 0 0 0 15px; 
+}
+
+.monedas_table .table__botton-rigth {
+    border-radius: 0 0 15px 0;
+}
+
+.monedas_table .centrar {
+    padding-right: 20px;
+}
+
+.monedas_table .table__rigth {
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
+}
+
+.monedas_table .down {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background: url('./icons/trending-down\ 1.svg') center/cover;
+}
+
+.monedas_table .up {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background: url('./icons/trending-up\ 1.svg') center/cover;
+}
 /*-------SECTION 2----------*/
 

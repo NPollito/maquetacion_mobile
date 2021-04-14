@@ -388,7 +388,7 @@ main {
     min-width: 288px;
     height: auto;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .section__plans--title h2 {
@@ -407,13 +407,23 @@ main {
     color: var(#757575);
 }
 
+.section__plans--slider {
+    display: flex;
+    /* gap: 50px; */
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 .plans--card {
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 20px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -442,7 +452,7 @@ main {
 }
 
 .plan--card-price {
-    padding: 5px 0;
+    padding: 3px 0;
     font-size: 5.2rem;
     font-weight: bold;
     line-height: 5.3rem;

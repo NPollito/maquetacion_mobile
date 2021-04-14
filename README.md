@@ -1,2 +1,3 @@
-# maquetacion_movile
-Creando una pagina web para dispositivos móviles 
+# maquetacion_mobile
+Creando una pagina web para dispositivos mobiles
+con HTML Y CSS ----
